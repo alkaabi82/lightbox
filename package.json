@@ -1,0 +1,15 @@
+{
+  "name": "broker",
+  "version": "0.0.1",
+  "description": "MQTT Publish/Subscribe Broker Using Mosca",
+  "main": "server.js",
+  "scripts": {
+    "start": "supervisor server.js"
+  },
+  "author": "Mohammed Alkaabi",
+  "license": "ISC",
+  "dependencies": {
+    "mosca": "^0.30.5"
+  }
+  
+}
